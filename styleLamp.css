@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+section {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border: 1px solid black;
+    height: 100vh;
+    width: 476px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #0E2F76;
+    padding: 1px;
+    font-size: 2em;
+    text-align: center;
+    color: #F5FEFF;
+}
+
+nav {
+    background-color: #0E2F76;
+    color: #F5FEFF;
+    margin-top: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: #F5FEFF;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.user {
+    background-image: url(coming.png);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+nav ul li a:hover {
+    color: #AAC0E1;
+
+}
+
+main {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.items {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 250px;
+    background-color: #AAC0E1;
+    border-radius: 25px;
+}
+
+main div button {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+    background-color: #F5FEFF;
+    border-radius: 25px;
+    height: 30px;
+    width: 170px;
+
+
+    cursor: pointer;
+    z-index: 10;
+}
+
+.image-led {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+
+}
+
+.image-led img {
+    width: 200px;
+    height: auto;
+}
+
+.image-led2 {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+
+}
+
+.image-led2 img {
+    width: 200px;
+    height: auto;
+}
+
+.image-led3 {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+
+}
+
+.image-led3 img {
+    width: 200px;
+    height: auto;
+}
+
+.image-led4 {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+
+}
+
+.image-led4 img {
+    width: 200px;
+    height: auto;
+}
+
+.tombol-led {
+    cursor: pointer;
+    background-color: #0E2F76;
+    font-size: 1.2em;
+    color: #F5FEFF;
+    font-weight: bold;
+}
+
+.tombol-led:hover {
+    cursor: pointer;
+    background-color: #F5FEFF;
+    color: #0E2F76;
+}
+
+.tombol-led2 {
+    cursor: pointer;
+    background-color: #0E2F76;
+    font-size: 1.2em;
+    color: #F5FEFF;
+    font-weight: bold;
+}
+
+.tombol-led2:hover {
+    cursor: pointer;
+    background-color: #F5FEFF;
+    color: #0E2F76;
+}
+
+.tombol-led3 {
+    cursor: pointer;
+    background-color: #0E2F76;
+    font-size: 1.2em;
+    color: #F5FEFF;
+    font-weight: bold;
+}
+
+.tombol-led3:hover {
+    cursor: pointer;
+    background-color: #F5FEFF;
+    color: #0E2F76;
+}
+
+.tombol-led4 {
+    cursor: pointer;
+    background-color: #0E2F76;
+    font-size: 1.2em;
+    color: #F5FEFF;
+    font-weight: bold;
+}
+
+.tombol-led4:hover {
+    cursor: pointer;
+    background-color: #F5FEFF;
+    color: #0E2F76;
+}
+
+.kondisi {
+
+    cursor: pointer;
+    color: #F5FEFF;
+    font-size: 1.2em;
+    margin: 10px auto;
+    border-radius: 20px;
+    width: 200px;
+    background-color: grey;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+    font-family: "Archivo Black", sans-serif;
+}
+
+.kondisi:hover {
+    color: #0E2F76;
+    background-color: #F5FEFF;
+}
