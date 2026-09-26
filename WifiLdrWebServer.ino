@@ -12,7 +12,7 @@ void setup() {
 
   // Jarigan berbasis Wifi :
 
-  WiFi.begin("No internet", "BBCS1331");
+  WiFi.begin("NAMA JARINGAN", "PASSWORD");
 
   while(WiFi.status() != WL_CONNECTED) {
     Serial.println("Belum terhubung");
