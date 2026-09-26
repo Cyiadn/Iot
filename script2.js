@@ -8,6 +8,8 @@ const image2 = document.querySelector(".image-led2 img");
 const image3 = document.querySelector(".image-led3 img");
 const image4 = document.querySelector(".image-led4 img");
 
+const status = document.querySelector(".kondisi");
+
 
 button.addEventListener("click", function () {
     if (button.textContent == "OFF") {
