@@ -200,21 +200,3 @@ main div button {
     background-color: #F5FEFF;
     color: #0E2F76;
 }
-
-.kondisi {
-
-    cursor: pointer;
-    color: #F5FEFF;
-    font-size: 1.2em;
-    margin: 10px auto;
-    border-radius: 20px;
-    width: 200px;
-    background-color: grey;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
-    font-family: "Archivo Black", sans-serif;
-}
-
-.kondisi:hover {
-    color: #0E2F76;
-    background-color: #F5FEFF;
-}
