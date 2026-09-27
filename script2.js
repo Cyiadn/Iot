@@ -28,7 +28,7 @@ button.addEventListener("click", function () {
         image.src = "led_on.png";
         button.textContent = "ON";
     } else {
-        fetch("http://192.168.1.9/led")
+        fetch("d")
             .then(function (response) {
                 return response.text();
             })
@@ -48,7 +48,7 @@ button.addEventListener("click", function () {
 
 button2.addEventListener("click", function () {
     if (button2.textContent == "OFF") {
-        fetch("http://192.168.1.9/led2")
+        fetch("p")
             .then(function (response) {
                 return response.text();
             })
@@ -63,7 +63,7 @@ button2.addEventListener("click", function () {
         image2.src = "led_on.png";
         button2.textContent = "ON";
     } else {
-        fetch("http://192.168.1.9/led22")
+        fetch("")
             .then(function (response) {
                 return response.text();
             })
@@ -83,7 +83,7 @@ button2.addEventListener("click", function () {
 
 button3.addEventListener("click", function () {
     if (button3.textContent == "OFF") {
-        fetch("http://192.168.1.9/led3")
+        fetch("3")
             .then(function (response) {
                 return response.text();
             })
@@ -98,7 +98,7 @@ button3.addEventListener("click", function () {
         image3.src = "led_on.png";
         button3.textContent = "ON";
     } else {
-        fetch("http://192.168.1.9/led33")
+        fetch("")
             .then(function (response) {
                 return response.text();
             })
